@@ -44,7 +44,6 @@ Tables – Lua's primary data structure, metatables, and class-like tables.
 
 Modules – How to structure code across multiple files.
 
----
 
 ----------------------------------------------------
 ### 1. Variables and Flow Control
@@ -93,7 +92,6 @@ if not aBoolValue then print('it was false') end
 ans = aBoolValue and 'yes' or 'no'
 ```
 
----
 
 ----------------------------------------------------
 ### 2. Functions
@@ -128,8 +126,6 @@ function obj:fn(...) automatically passes self.
 Single string argument doesn't need parentheses: print 'hello'.
 
 
----
-
 ----------------------------------------------------
  ## 3. Tables
  ----------------------------------------------------
@@ -161,7 +157,6 @@ s = f1 + f2
 
 Common metamethods: __add, __sub, __mul, __index, __call, etc.
 
----
 
 ----------------------------------------------------
 ### 3.2 Class-like Tables & Inheritance
@@ -198,7 +193,6 @@ Lua uses tables + metatables to mimic classes and inheritance.
 
 : syntax passes self automatically.
 
----
 
 ----------------------------------------------------
 ### 4. Modules
@@ -246,3 +240,5 @@ Modules help organize code.
   
 This project is open-source under the MIT License.
 Feel free to fork, modify, and learn from it.
+
+---
