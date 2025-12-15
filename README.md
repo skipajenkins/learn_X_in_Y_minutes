@@ -34,7 +34,7 @@ LuaRocks for package management.
 
 ---
 
-##📌 What to Expect
+## 📌 What to Expect
 
 This guide is split into four main sections:
 
@@ -48,8 +48,8 @@ Modules – How to structure code across multiple files.
 
 ---
 
-###----------------------------------------------------
-###1. Variables and Flow Control
+----------------------------------------------------
+### 1. Variables and Flow Control
 ----------------------------------------------------
 ```bash
 num = 42        -- Numbers (int or float)
@@ -97,8 +97,8 @@ ans = aBoolValue and 'yes' or 'no'
 
 ---
 
-###----------------------------------------------------
-2. Functions
+----------------------------------------------------
+### 2. Functions
 ----------------------------------------------------
 ```bash
 function fib(n)
@@ -132,8 +132,8 @@ Single string argument doesn't need parentheses: print 'hello'.
 
 ---
 
-###----------------------------------------------------
- 3. Tables
+----------------------------------------------------
+ ## 3. Tables
  ----------------------------------------------------
 
 Lua's only compound data structure: associative arrays.
@@ -165,8 +165,8 @@ Common metamethods: __add, __sub, __mul, __index, __call, etc.
 
 ---
 
-###----------------------------------------------------
-3.2 Class-like Tables & Inheritance
+----------------------------------------------------
+### 3.2 Class-like Tables & Inheritance
 ----------------------------------------------------
 ```bash
 Dog = {}
@@ -185,7 +185,7 @@ mrDog = Dog:new()
 mrDog:makeSound()  --> 'I say woof'
 ```
 
-Inheritance Example:
+### Inheritance Example:
 ```bash
 LoudDog = Dog:new()
 function LoudDog:makeSound()
@@ -202,8 +202,8 @@ Lua uses tables + metatables to mimic classes and inheritance.
 
 ---
 
-###----------------------------------------------------
-4. Modules
+----------------------------------------------------
+### 4. Modules
 ----------------------------------------------------
 ```bash
 -- mod.lua
