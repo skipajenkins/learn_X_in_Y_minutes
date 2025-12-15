@@ -1,8 +1,6 @@
 
 # 🐍 Learn Lua in Y Minutes
 
----
-
 A fast-paced, practical Lua guide, inspired by Learn X in Y Minutes.
 
 Covers variables, functions, tables, metatables, class-like patterns, and modules.
